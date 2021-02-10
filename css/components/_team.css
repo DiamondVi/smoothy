@@ -1,0 +1,86 @@
+.team__title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--matterhorn-color);
+}
+.team__descr{
+    text-align: center;
+    font-family: WaitingfortheSunrise, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--sweetpink-color);
+    margin-bottom: 60px;
+}
+.team__container{
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.team__card{
+    flex: 0 0 calc(50% - 177px);
+    align-items: center;
+}
+.team__card:nth-child(2),
+.team__card:nth-child(3){
+    background-color: var(--caper-color);
+}
+.team__card:first-child,
+.team__card:last-child {
+    background-color: var(--linkwater-color);
+}
+.team__card:first-child,
+.team__card:nth-child(2){
+    margin: 11px 11px 40px 165px;
+}
+.team__card:nth-child(3),
+.team__card:last-child{
+    margin: 11px 165px 40px 11px;
+}
+.team__avatar img{
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+}
+.team__image-1,
+.team__image-2{
+    margin: 25px 17px 25px -165px;
+}
+.team__image-3,
+.team__image-4{
+    margin: 25px -165px 25px 17px;
+}
+
+.team__card-3,
+.team__card-4{
+    flex-direction: row-reverse;
+}
+.team__content-3,
+.team__content-4 {
+    text-align: right;
+}
+.team__name{
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 30px;
+}
+.team__position{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--matterhorn-color);
+}
+.team__description{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--matterhorn-color);
+}
+.social-3,
+.social-4 {
+    justify-content: flex-end;
+}
+.social__item:nth-child(n+2){
+    margin-left: 5px;
+    margin-right: 5px;
+}

@@ -1,0 +1,45 @@
+.about {
+    min-height: 400px;
+    background: no-repeat 100%/cover url("../../img/about-bg.jpg");
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.about::before,
+.about::after {
+    content: "";
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 146px;
+}
+
+.about::before {
+    background-image: url("../../img/top.svg");
+    top: 0;
+}
+
+.about::after {
+    background-image: url("../../img/bottom.svg");
+    bottom: 0;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 50px;
+    padding: 130px 0px 10px 0px;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.about__discr {
+    font-family: WaitingfortheSunrise, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--white-color);
+    text-align: center;
+}
+

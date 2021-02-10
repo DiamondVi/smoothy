@@ -1,0 +1,23 @@
+.header__container{
+    justify-content: space-evenly;
+    align-items: center;
+    /*padding: 15px;*/
+    height: 100px;
+}
+
+.header__navigation{
+    width: 197px;
+    justify-content: space-between;
+}
+
+.menu__link{
+    display: inline-block;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--matterhorn-color);
+}
+
+.menu__link:hover{
+    color: var(--sweetpink-color);
+}
